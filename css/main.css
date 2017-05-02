@@ -119,5 +119,7 @@ footer div {
   padding: 1em;
   color: black;
   border: 2px solid;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
