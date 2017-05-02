@@ -54,13 +54,9 @@ nav a {
 .center {
   /* text-align: center; */
   width: 100%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   /* background-color: #eee; */
-  padding-left: 2em;
-  padding-right: 1em;
-
+  padding: 1em 1.4em 0em 1.4em;
 }
 
 .banner {
@@ -69,17 +65,9 @@ nav a {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-size: 2em;
-  margin: 1em 0 1em 0;
-  text-transform: uppercase;
-}
-
-h2 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.2em;
-  margin-bottom: 3em;
+  font-size: 2em;
+  margin-bottom: 1.5em;
   font-weight: 300;
   margin-top: 0;
 }
@@ -117,8 +105,11 @@ footer div {
   font-size: .8em;
   padding: 1em;
   color: black;
-  border: 2px solid;
+  border-bottom: 2px solid;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
