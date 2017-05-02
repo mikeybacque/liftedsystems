@@ -74,11 +74,12 @@ a:hover {
 h1 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 2em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   font-weight: 300;
   margin-top: 0;
   width: 100%;
-  padding: 0em 1em 1em 1em;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 
 footer {
@@ -126,4 +127,30 @@ footer div {
 main {
   width: 100%;
 
+}
+
+.circle-img {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-contain {
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  bottom: 0;
+  padding: 2em;
+  font-size: .8em;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.group {
+  position: relative;
+  height: 24em;
 }
