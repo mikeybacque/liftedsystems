@@ -43,10 +43,10 @@ nav {
 
 nav ol {
   padding: 0;
-  width: 130%;
+  width: 120%;
   text-align: center;
   margin-top: 0.5em;
-  margin-left: -15%;
+  margin-left: -1.5em;
 }
 
 nav li {
