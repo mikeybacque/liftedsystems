@@ -145,25 +145,30 @@ main {
 }
 
 .banner-img {
-  height: 100vh;
+  height: calc(100vh - 100px);
 }
 
 .section {
-  padding: 1.5em;
   font-family: 'Cormorant Garamond', serif;
+  padding-bottom: 1em;
+  position: relative;
+}
+
+.margin {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 2.2em;
-  margin-top: .5em;
+  font-size: 2em;
+  margin-top: 1.5em;
   margin-bottom: .5em;
-
 }
 
 .section p {
-  line-height: 1.5;
+  line-height: 1.7;
   font-weight: 500;
 }
 
@@ -178,7 +183,7 @@ dl li {
 dl dt {
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: .5em;
 }
 
@@ -191,7 +196,7 @@ dl dd {
 }
 
 .contact {
-  margin-bottom: 5em;
+  margin-bottom: 4em;
 }
 
 .button-img {
@@ -204,4 +209,13 @@ dl dd {
 .button-container {
   margin-top: 2em;
   position: relative;
+}
+
+.line {
+  border-bottom: 1px solid #000;
+  width: 5em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
 }
