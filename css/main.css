@@ -51,6 +51,15 @@ nav a {
   color: black;
 }
 
+a:hover {
+  color: orange;
+}
+
+::selection {
+  color: #fff;
+  background: orange;
+}
+
 .center {
   /* text-align: center; */
   width: 100%;
