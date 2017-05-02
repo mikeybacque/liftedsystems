@@ -39,14 +39,15 @@ nav {
   padding: 1.5em;
   background-color: #fff;
   z-index: 10000;
+  overflow: hidden;
 }
 
 nav ol {
   padding: 0;
-  width: 120%;
+  width: 320px;
   text-align: center;
   margin-top: 0.5em;
-  margin-left: -1.5em;
+  margin-left: -2em;
 }
 
 nav li {
@@ -146,6 +147,10 @@ main {
   height: calc(100vh - 100px);
 }
 
+.sky {
+  height: calc(100vh - 100px);
+}
+
 .section {
   font-family: 'Cormorant Garamond', serif;
   padding-bottom: 1em;
@@ -218,4 +223,26 @@ dl dd {
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
+}
+
+
+@media only screen and (min-width: 32em) {
+
+  .nav-logo {
+    display: inline;
+  }
+  .nav img {
+    width: 160px;
+  }
+
+  nav ol {
+    display: inline;
+    position: absolute;
+    top: 1em;
+    right: -.5em;
+  }
+
+  nav {
+    height: 70px;
+  }
 }
