@@ -32,8 +32,8 @@ nav {
 }
 
 nav ol {
-  padding: 0;
-  width: 19em;
+  padding: 0 0 0 .4em;
+  width: 20em;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -42,10 +42,10 @@ nav ol {
 nav li {
   list-style-type: none;
   display: inline;
-  padding: .5em 1em .5em 1em;
-  font-size: .9em;
+  padding: .5em .7em .5em .7em;
+  font-size: 1em;
   font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 nav a {
