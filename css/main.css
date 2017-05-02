@@ -27,12 +27,13 @@ body {
 
 nav {
   position: relative;
-  height: 120px;
+  height: 220px;
   padding: 1.5em;
+  margin-bottom: 2em;
 }
 
 nav ol {
-  padding: 0 0 0 .4em;
+  padding: 0 0 0 .2em;
   width: 20em;
   position: absolute;
   left: 50%;
@@ -43,9 +44,8 @@ nav li {
   list-style-type: none;
   display: inline;
   padding: .5em .7em .5em .7em;
-  font-size: 1em;
+  font-size: 2em;
   font-family: 'Cormorant Garamond', serif;
-  /* font-style: italic; */
 }
 
 nav a {
@@ -54,11 +54,15 @@ nav a {
 }
 
 .center {
-  text-align: center;
-  width: 90%;
+  /* text-align: center; */
+  width: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  /* background-color: #eee; */
+  padding-left: 2em;
+  padding-right: 1em;
+
 }
 
 .banner {
@@ -67,17 +71,16 @@ nav a {
 }
 
 h1 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 3em;
-  font-weight: 700;
-  letter-spacing: -2px;
-  padding: .5em;
-  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  margin: 1em 0 1em 0;
+  text-transform: uppercase;
 }
 
 h2 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-bottom: 3em;
   font-weight: 300;
   margin-top: 0;
