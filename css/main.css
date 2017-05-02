@@ -22,6 +22,7 @@ body {
 
 .nav-logo {
   width: 200px;
+  margin-bottom: .5em;
 }
 
 nav {
@@ -32,7 +33,7 @@ nav {
 
 nav ol {
   padding: 0;
-  width: 20em;
+  width: 19em;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -42,13 +43,14 @@ nav li {
   list-style-type: none;
   display: inline;
   padding: .5em 1em .5em 1em;
-  font-size: 0.8em;
-  font-family: 'Tenor Sans', sans-serif;
-  color: black;
+  font-size: .9em;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
 }
 
 nav a {
   text-decoration: none;
+  color: black;
 }
 
 .center {
@@ -67,12 +69,18 @@ nav a {
 h1 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 3em;
-  font-weight: normal;
+  font-weight: 700;
+  letter-spacing: -2px;
+  padding: .5em;
+  margin: 0;
 }
 
 h2 {
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1em;
   margin-bottom: 3em;
+  font-weight: 300;
+  margin-top: 0;
 }
 
 footer {
@@ -95,6 +103,7 @@ footer p {
   position: absolute;
   right: 0;
   bottom: 0;
+  font-weight: 300;
 }
 
 footer div {
@@ -106,5 +115,6 @@ footer div {
   text-decoration: none;
   padding: 1em;
   color: black;
-  border: 1px solid;
+  border: 2px solid;
+  font-weight: 700;
 }
