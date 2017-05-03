@@ -151,7 +151,7 @@ main {
 
 .sky {
   height: calc(100vh - 100px);
-  width: 100%;
+  width: 160%;
 }
 
 .section {
@@ -293,15 +293,6 @@ dl dd {
 
 @media only screen and (min-width: 43em) {
 
-  h1 {
-    font-size: 3.3em;
-    line-height: 1.2;
-  }
-
-  .banner-text p {
-    font-size: 1em;
-  }
-
   .columns {
     column-count: 2;
   }
@@ -315,6 +306,15 @@ dl dd {
 
 
 @media only screen and (min-width: 49em) {
+
+  h1 {
+    font-size: 3.3em;
+    line-height: 1.2;
+  }
+
+  .banner-text p {
+    font-size: 1em;
+  }
 
   .viewport {
     height: calc(100vh - 70px);
