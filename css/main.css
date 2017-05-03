@@ -337,6 +337,10 @@ dl dd {
 
 @media only screen and (min-width: 60em) {
 
+  h1 {
+    font-size: 3.3em;
+  }
+
   .section {
     padding-top: 10em;
   }
