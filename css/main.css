@@ -361,6 +361,14 @@ dl dd {
     padding-top: 10em;
   }
 
+  nav li {
+    font-size: .9em;
+  }
+
+  nav ol {
+    margin-right: 1em;
+  }
+
 }
 
 
@@ -398,14 +406,9 @@ dl dd {
   column-count: 3;
 }
 
-.section {
-  padding-top: 8em;
-  height: calc(100vh - 70px);
-}
 
 .contact {
   padding-top: 8em;
-  height: calc(100vh - 140px);
 }
 
 }
