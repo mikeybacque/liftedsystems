@@ -231,6 +231,10 @@ dl dd {
   height: calc(100vh - 100px);
 }
 
+.columns {
+  column-count: 1;
+}
+
 @media only screen and (min-width: 32em) {
 
   .nav-logo {
@@ -249,5 +253,9 @@ dl dd {
 
   nav {
     height: 70px;
+  }
+
+  h1 {
+    font-size: 3em;
   }
 }
