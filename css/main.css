@@ -22,7 +22,7 @@ body {
 }
 
 main {
-  padding-top: 70px;
+  padding-top: 100px;
   margin: 0;
   color: #000033;
   position: relative;
@@ -257,5 +257,49 @@ dl dd {
 
   h1 {
     font-size: 3em;
+    line-height: 1.2;
+  }
+
+  .banner-text p {
+    max-width: 30em;
+    display: inline;
+  }
+
+  main {
+    padding-top: 70px;
+  }
+
+  .viewport2 {
+    height: calc(100vh - 70px);
+  }
+
+  .banner-img {
+    height: calc(100vh - 70px);
+  }
+
+  .sky {
+    height: calc(100vh - 70px);
+  }
+
+  .banner-text {
+    max-width: 40em;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (min-width: 43em) {
+
+  h1 {
+    font-size: 3.3em;
+  }
+
+}
+
+@media only screen and (min-width: 70em) {
+
+  .sky {
+    width: 100%;
   }
 }
