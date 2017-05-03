@@ -97,6 +97,44 @@ h1 {
   padding-left: 1.5em;
   padding-right: 1.5em;
   color: #fff;
+  animation: fade 1.5s linear;
+}
+
+.history {
+  opacity: 0;
+  transition: all 1.5s linear;
+}
+
+.projects {
+  opacity: 0;
+  transition: all 1.5s linear;
+}
+
+.contact {
+  opacity: 0;
+  transition: all 1.5s linear;
+}
+
+.animate {
+  opacity: 1;
+
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#projects {
+  animation: fade 2s linear;
+}
+
+#contact {
+  animation: fade 2s linear;
 }
 
 .banner-text p {
@@ -348,18 +386,6 @@ dl dd {
   .margin {
     margin-left: 16em;
     margin-right: 16em;
-  }
-
-  .viewport {
-    height: calc(100vh - 70px);
-  }
-
-  .contact {
-    margin-bottom: 0em;
-  }
-
-  .viewport2 {
-    height: calc(130vh - 70px);
   }
 
 }
