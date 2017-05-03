@@ -353,6 +353,10 @@ dl dd {
     font-size: 3.3em;
   }
 
+  .banner-text p {
+    font-size: 1em;
+  }
+
   .section {
     padding-top: 10em;
   }
@@ -373,14 +377,11 @@ dl dd {
 
   h1 {
     font-size: 4em;
+    margin-top: .5em;
   }
 
   .banner-text {
     max-width: 50em;
-  }
-
-  .banner-text p {
-    font-size: 1.2em;
   }
 
   .margin {
@@ -391,14 +392,30 @@ dl dd {
 }
 
 
-@media only screen and (min-width: 80em) {
+@media only screen and (min-width: 84em) {
 
 .columns {
   column-count: 3;
 }
 
 .section {
-  padding-top: 12em;
+  padding-top: 8em;
+  height: calc(100vh - 70px);
 }
+
+.contact {
+  padding-top: 8em;
+  height: calc(100vh - 140px);
+}
+
+}
+
+
+@media only screen and (min-width: 100em) {
+
+  .margin {
+    margin-left: 20em;
+    margin-right: 20em;
+  }
 
 }
