@@ -203,7 +203,7 @@ dl dd {
 }
 
 .contact {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 
 }
 
@@ -233,6 +233,8 @@ dl dd {
 
 .columns {
   column-count: 1;
+  column-gap: 2em;
+  margin: 0;
 }
 
 @media only screen and (min-width: 32em) {
@@ -270,7 +272,7 @@ dl dd {
   }
 
   .viewport2 {
-    height: calc(100vh - 70px);
+    height: calc(150vh - 70px);
   }
 
   .banner-img {
@@ -287,6 +289,12 @@ dl dd {
     left: 50%;
     transform: translateX(-50%);
   }
+
+  .margin {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
 }
 
 @media only screen and (min-width: 43em) {
@@ -295,11 +303,74 @@ dl dd {
     font-size: 3.3em;
   }
 
+  .columns {
+    column-count: 2;
+  }
+
+  .viewport2 {
+    height: calc(125vh - 70px);
+  }
+
+  .margin {
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+
 }
 
-@media only screen and (min-width: 70em) {
+
+@media only screen and (min-width: 49em) {
+
+  .viewport2 {
+    height: calc(100vh - 70px);
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .section {
+    padding-top: 10em;
+  }
+
+}
+
+
+@media only screen and (min-width: 73em) {
 
   .sky {
-    width: 100%;
+    width: 120%;
+    height: auto;
   }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  .banner-text {
+    max-width: 50em;
+  }
+
+  .banner-text p {
+    font-size: 1.2em;
+  }
+
+  .margin {
+    margin-left: 16em;
+    margin-right: 16em;
+  }
+
+}
+
+
+@media only screen and (min-width: 80em) {
+
+.columns {
+  column-count: 3;
+}
+
+.section {
+  padding-top: 12em;
+}
+
 }
