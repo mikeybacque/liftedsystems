@@ -22,7 +22,7 @@ body {
 }
 
 main {
-  padding-top: 100px;
+  padding-top: 70px;
   margin: 0;
   color: #000033;
   position: relative;
@@ -155,9 +155,9 @@ main {
 
 .section {
   font-family: 'Cormorant Garamond', serif;
-  padding-bottom: 1em;
+  padding-bottom: 0em;
   position: relative;
-  padding-top: 100px;
+  padding-top: 6em;
 }
 
 .margin {
@@ -176,6 +176,7 @@ h2 {
 .section p {
   line-height: 1.7;
   font-weight: 500;
+  margin-bottom: 1em;
 }
 
 .orange {
@@ -221,7 +222,6 @@ dl dd {
 .line {
   border-bottom: 1px solid #000;
   width: 5em;
-  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
