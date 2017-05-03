@@ -302,10 +302,8 @@ dl dd {
     margin-right: 6em;
   }
 
-}
 
 
-@media only screen and (min-width: 49em) {
 
   h1 {
     font-size: 3.3em;
@@ -327,6 +325,13 @@ dl dd {
   .viewport2 {
     height: calc(100vh - 70px);
   }
+
+
+}
+
+
+@media only screen and (min-width: 49em) {
+
 
 }
 
