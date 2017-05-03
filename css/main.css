@@ -306,14 +306,15 @@ dl dd {
     column-count: 2;
   }
 
-  .viewport2 {
-    height: calc(125vh - 70px);
-  }
-
   .margin {
     margin-left: 6em;
     margin-right: 6em;
   }
+
+}
+
+
+@media only screen and (min-width: 49em) {
 
   .viewport {
     height: calc(100vh - 70px);
@@ -322,11 +323,6 @@ dl dd {
   .contact {
     margin-bottom: 1em;
   }
-
-}
-
-
-@media only screen and (min-width: 49em) {
 
   .viewport2 {
     height: calc(100vh - 70px);
