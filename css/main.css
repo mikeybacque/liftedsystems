@@ -30,7 +30,7 @@ main {
 }
 
 .nav-logo {
-  width: 160px;
+  width: 30px;
   margin-bottom: 0;
 }
 
@@ -279,13 +279,6 @@ dl dd {
 }
 
 @media only screen and (min-width: 32em) {
-
-  .nav-logo {
-    display: inline;
-  }
-  .nav img {
-    width: 160px;
-  }
 
   nav ol {
     display: inline;
